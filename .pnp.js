@@ -46,7 +46,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["alpha-sort", "npm:4.0.0"],
             ["bufferutil", "npm:4.0.3"],
             ["consola", "npm:2.15.3"],
-            ["erlpack", "https://github.com/discord/erlpack.git#commit=e27db8f82892bdb9b28a0547cc394d68b5d2242d"],
+            ["erlpack", "npm:0.1.3"],
             ["husky", "npm:5.1.3"],
             ["lint-staged", "npm:10.5.4"],
             ["node-gyp", "npm:7.1.2"],
@@ -1264,7 +1264,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["alpha-sort", "npm:4.0.0"],
             ["bufferutil", "npm:4.0.3"],
             ["consola", "npm:2.15.3"],
-            ["erlpack", "https://github.com/discord/erlpack.git#commit=e27db8f82892bdb9b28a0547cc394d68b5d2242d"],
+            ["erlpack", "npm:0.1.3"],
             ["husky", "npm:5.1.3"],
             ["lint-staged", "npm:10.5.4"],
             ["node-gyp", "npm:7.1.2"],
@@ -2379,12 +2379,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["erlpack", [
-        ["https://github.com/discord/erlpack.git#commit=e27db8f82892bdb9b28a0547cc394d68b5d2242d", {
-          "packageLocation": "./.yarn/unplugged/erlpack-https-2595d388eb/node_modules/erlpack/",
+        ["npm:0.1.3", {
+          "packageLocation": "./.yarn/unplugged/erlpack-npm-0.1.3-da3e92777a/node_modules/erlpack/",
           "packageDependencies": [
-            ["erlpack", "https://github.com/discord/erlpack.git#commit=e27db8f82892bdb9b28a0547cc394d68b5d2242d"],
+            ["erlpack", "npm:0.1.3"],
             ["bindings", "npm:1.5.0"],
-            ["nan", "npm:2.14.2"]
+            ["nan", "npm:2.14.2"],
+            ["node-gyp", "npm:7.1.2"]
           ],
           "linkType": "HARD",
         }]
